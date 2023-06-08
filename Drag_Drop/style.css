@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+
+}
+ .container{
+    display: flex;
+} 
+.box{
+    height: 50vh;
+    width: 50vw;
+    background-color: #ffffff;
+    margin:10px;
+    border: 2px solid rgb(22, 22, 193);
+    border-radius: 12px;
+
+}
+.image
+{
+    position: relative;
+    top:50%;
+    left: 50%;
+     transform:translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Photo.jpg');
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.hold{
+    border:1px solid rgb(22,22,193);
+}
+.hide{
+    display: none;
+}
